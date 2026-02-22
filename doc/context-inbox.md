@@ -17,10 +17,10 @@
 
 ## Active
 - Date: 2026-02-22
-- Topic: Add `.gitignore` to exclude unnecessary local/system files from commits
+- Topic: Verify and remove tracked junk files before commit/push
 - Temporary Context:
-  - `.gitignore` created with OS/editor/log/env ignore rules.
-  - Note: `.git/` is internally excluded by Git and not tracked as regular content.
+  - Checked tracked files for `ore`, `Thumbs.db`, `.idea/`, `.vscode/`, `*.swp`, `*.swo`.
+  - No matching tracked files found.
 - Needs Validation:
   - None
 - Notes:

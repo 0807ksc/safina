@@ -27,3 +27,9 @@
 - Rationale: Prevent accidental commits of unnecessary local files while keeping rules minimal and safe.
 - Impact Scope: `.gitignore`
 - Follow-up: Extend patterns only when new toolchain-specific artifacts appear.
+
+- Date: 2026-02-22
+- Decision: Verified that `ore`, `Thumbs.db`, `.idea/`, `.vscode/`, `*.swp`, `*.swo` are not currently tracked by Git.
+- Rationale: User requested cleanup before commit/push; no tracked junk files required removal.
+- Impact Scope: Repository index state verification (`git ls-files` check).
+- Follow-up: Keep `.gitignore` maintained if new toolchain artifacts appear.
