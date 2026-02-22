@@ -21,3 +21,9 @@
 - Rationale: User requested repository initialization and remote publication.
 - Impact Scope: `.git/` metadata, remote `origin`, branch tracking for `main`.
 - Follow-up: None.
+
+- Date: 2026-02-22
+- Decision: Added repository-level `.gitignore` for common OS/editor/log/env artifacts.
+- Rationale: Prevent accidental commits of unnecessary local files while keeping rules minimal and safe.
+- Impact Scope: `.gitignore`
+- Follow-up: Extend patterns only when new toolchain-specific artifacts appear.

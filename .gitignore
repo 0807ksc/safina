@@ -1,0 +1,19 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor/IDE artifacts
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# Environment files
+.env
+.env.local
+.env.*.local

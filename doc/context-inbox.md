@@ -17,10 +17,10 @@
 
 ## Active
 - Date: 2026-02-22
-- Topic: Initialize Git repo and push to `git@github.com:0807ksc/safina.git`
+- Topic: Add `.gitignore` to exclude unnecessary local/system files from commits
 - Temporary Context:
-  - `git init -b main`, initial commit, and remote setup completed.
-  - `main` pushed and tracking `origin/main`.
+  - `.gitignore` created with OS/editor/log/env ignore rules.
+  - Note: `.git/` is internally excluded by Git and not tracked as regular content.
 - Needs Validation:
   - None
 - Notes:
